@@ -1,0 +1,247 @@
+body { 
+
+    margin: auto;
+    text-align: center;
+    background-color: #e5f5f9;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Gruppo', cursive;
+    font-family: 'Kite One', sans-serif;
+}
+
+form {
+    display: grid;
+    margin-top: 200px;
+    margin-bottom: -300px;
+}
+
+.wrapper {
+
+    width: auto;
+}
+
+.x {
+
+    
+}
+
+button.btm {
+    margin-top: 5px;
+    font-size: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 2px;
+    border-radius: 6px;
+    width: 20%;
+    background-color: beige;
+}
+
+.btm { 
+    height: 21px;
+    width: 198px;
+    margin-right: 10px;
+}
+
+
+textarea, rawtext {
+    margin-top: 40px;
+}
+
+textarea, p {
+    margin-top: 40px;
+}
+
+textarea {
+    margin-right: 0px;
+    border-radius: 6px;
+    margin-left: 0px;
+    margin-bottom: -15px;
+    width: 80%;
+}
+
+.Leo {
+    
+}
+
+#.You { 
+    float: left;
+    margin-left: 655px;
+}
+
+.USER {
+
+    margin-top: -45px;
+    margin-bottom: -5px;
+}
+
+
+.input {
+    margin-top: -27px;
+}
+
+.out {
+   margin-top: -35px;
+}
+
+.Form {
+
+}
+
+.dialogs {
+    margin-top: 50px;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* Media Queries @media only screen and (max-width: 600px) {...} 
+
+*/ 
+
+/* ---------------------------------------------------------------------------- */
+
+/* ----------------320------------------ */
+@media only screen and (max-width: 320px) {
+    body {
+    background-color: lightblue;
+    width: 100%;
+    margin: auto;
+    margin-left: 55px;
+}
+  }
+
+  @media only screen and (max-width: 320px) {
+    .USER {
+            margin-top: -74px;
+            margin-bottom: -21px;
+        }
+}
+
+@media only screen and (max-width: 320px) {
+    .input {
+            margin-top: -37px;
+        }
+}
+  
+/* ----------------360------------------ */
+/* @media only screen and (max-width: 360px) {
+    body {
+    background-color: lightblue;
+    width: 95%;
+    margin: auto;
+    margin-left: 25px;
+}
+  }
+
+  */
+
+
+  /* ----------------375------------------ */
+/* @media only screen and (max-width: 375px) {
+    body {
+    background-color: lightblue;
+    width: 95%;
+    margin: auto;
+    margin-left: 10px;
+}
+  }
+
+  */
+
+    /* ----------------375------------------ */
+/* @media only screen and (max-width: 375px) {
+    textarea {
+    width: 41%;
+    float: left;
+    margin-left: 56px;
+}
+  }
+
+  */
+
+ /* @media only screen and (max-width: 375px) {
+      button.btm {
+            margin-top: -1px;
+            font-size: 16px;
+            margin-right: 364px;
+            margin-left: 100px;
+            margin-bottom: 2px;
+            border-radius: 45px;
+      }
+  }
+  */
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      width: 80%;
+      margin: auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .input {
+      margin-top: -45px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .out {
+      margin-top: -45px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    textarea {
+      width: 95%;
+      float: left;
+      margin-left: 0px;
+      margin-right: 0px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    button.btm {
+        margin-top: 1px;
+        font-size: 16px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 2px;
+        border-radius: 45px;
+        background-color: aquamarine;
+        width: 65%;
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    .USER {
+    margin-top: -74px;
+    margin-bottom: -5px;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}
+
