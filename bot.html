@@ -1,0 +1,38 @@
+{% extends 'chat.html' %}
+<div class="wrapper">
+{% block head %}
+<h1>Slate Agent</h1>
+{% endblock %}
+
+{% block body %}
+
+<p class="content">Hi, I'm Leo, Slate's Virtual agent. <br> For support, please mention one of our services below: <br> SEO, MAINTENANCE, HOSTING, DEVELOPMENT, SOCIAL MEDIA, DESIGN & UX and DIGITAL MARKETING.</p>
+
+<div class="Form">
+<form class="x" method="POST" action="result">
+    <div class="col-1">
+        <textarea name="rawtext" required="true" placeholder="Your comments"></textarea>
+    </div>
+    <br>
+    <div class="col-2">
+        <button class="btm"  type="submit">Send</button>
+    </div>
+</form>
+</div>
+
+<br>
+
+<div class="dialogs">
+
+<div class="USER"><h3>YOU:</h3>
+    <div class="input" role="alert"><p>{{inp}}</p></div>
+</div>
+
+<div class="LEO"><h3>LEO:</h3>
+    <div class="out" role="alert"><p>{{ctext}}</p></div>
+</div>
+
+</div>
+</div>
+{% endblock %}
+
