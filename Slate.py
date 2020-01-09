@@ -182,41 +182,7 @@ def response(user_response):
         LEO_response = LEO_response+sent_tokens[idx]
         return LEO_response
 
-    # Lines fed into the bot for interactions
-# flag = True
-# print(
-#     "Hi, I'm LEO, Slate's Virtual agent. We're specialised in WordPress.org for SEO, MAINTENANCE, HOSTING, DEVELOPMENT, SOCIAL MEDIA, DESIGN & UX and DIGITAL MARKETING. Let's chat! To exit, type Bye"
-# )
-# while(flag == True):
-#     user_response = input()
-#     user_response = user_response.lower()
-#     if(user_response != 'bye'):
-#         if(user_response == 'thanks' or user_response == 'thank you'):
-#             flag = False
-#             print(
-#                 "LEO: You are welcome. For more details, please contact our support team on 0208 to get a quote today."
-#             )
-#         else:
-#             if(greeting(user_response) != None):
-#                 print("LEO: "+greeting(user_response))
-#             else:
-#                 if(demo(user_response) != None):
-#                     print("LEO: "+demo(user_response))
-#                 else:
-#                     if(slang(user_response) != None):
-#                         print("LEO: "+slang(user_response))
-#                     else:
-#                         if(slang1(user_response) != None):
-#                             print("LEO: "+slang1(user_response))
-#                         else:
-#                             print("LEO: ", end="")
-#                             print(response(user_response))
-#                             sent_tokens.remove(user_response)
-#     else:
-#         flag = False
-#         print(
-#             "LEO: Bye! take care. For more info, please contact our support team on 0208 to get a quote today."
-#         )
+
 
 
 @app.route('/')
